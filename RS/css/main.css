@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap");
+body {
+  background: white;
+  font-family: 'poppins', arial;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding: 0.0;
+}
+
+.navbar .logo {
+  max-width: 30%;
+}
+
+.navbar header {
+  display: none;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul a {
+  display: block;
+  padding: 0.0em;
+  color: white;
+}
+
+.hero .hed {
+  color: rgba(230, 230, 230, 0.6);
+  text-align: left;
+}
+
+h1 {
+  color: white;
+  font-size: 2em;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.hero {
+  background: #2d775e;
+  padding: 2em;
+}
+
+.hero .signup {
+  margin-left: 5em;
+  max-width: 450px;
+  display: -ms-grid;
+  display: grid;
+  grid-column: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(93, 102, 128, 0.47);
+          box-shadow: 0px 0px 5px 5px rgba(93, 102, 128, 0.47);
+  padding: 1em;
+}
+
+.hero .signup h2 {
+  position: relative;
+  padding: 0.5em;
+  margin-bottom: 0.7em;
+}
+
+.hero .signup h2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 4px;
+  width: 4em;
+  border-radius: 2px;
+  background-color: #2ecc71;
+}
+
+.hero .signup .field {
+  width: 90%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(230, 230, 230, 0.6);
+  font-size: 1.1rem;
+  margin-bottom: 2em;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.hero .signup .field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hero .signup .field:focus {
+  background-color: #ffff;
+  border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.hero .signup .btn {
+  width: 50%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  background-color: #2ecc71;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hero .signup .btn:hover {
+  background-color: #27ae60;
+}
+
+.rightcol {
+  position: relative;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding: 2em;
+}
+
+.heroimg {
+  width: 50%;
+}
+
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.featured {
+  position: relative;
+}
+
+.featured::before {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #9fe2cc;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.feed {
+  color: #333;
+  margin-bottom: 3em;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+.featured .left img {
+  width: 50%;
+}
+
+.left button {
+  width: 50%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  background-color: #2ecc71;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.services {
+  font-size: 1.5em;
+  background: #19523f;
+  color: #fff;
+}
+
+.servicescontainer ul li {
+  font-size: .9em;
+  background: white;
+  color: #333;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+.iconcontainer {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.iconcontainer.iconcontainer1 {
+  width: 50px;
+}
+
+.iconcontainer.iconcontainer2 {
+  width: 60px;
+}
+
+.iconcontainer.iconcontainer3 {
+  width: 100px;
+}
+
+.iconcontainer.iconcontainer4 {
+  width: 60px;
+}
+
+.iconcontainer.iconcontainer5 {
+  width: 60px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+footer img {
+  display: block;
+  text-align: center;
+  margin: auto;
+  max-width: 400px;
+}
+
+footer ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer ul li {
+  text-align: center;
+  display: block;
+  font-size: 0.9em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5em;
+}
+
+.fineprint {
+  text-align: center;
+  font-size: 0.6em;
+}
+
+@media only screen and (min-width: 720px) {
+  .featured {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .left {
+    place-content: center;
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .right {
+    margin-left: 2em;
+    margin-top: 1em;
+  }
+  .servicescontainer ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .servicescontainer img {
+    max-width: 50%;
+  }
+  .heroimg {
+    width: 100%;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero img {
+    width: 100%;
+  }
+  .container {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .signup {
+    width: 300px;
+    padding-top: -1em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  .right .featuredimg {
+    position: relative;
+  }
+  .featuredcontainer {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+/*# sourceMappingURL=main.css.map */
